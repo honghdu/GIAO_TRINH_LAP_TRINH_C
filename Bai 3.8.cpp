@@ -10,7 +10,7 @@ int main()
     else
         if(x <= b)    t = a * d1 + (x - a) * d2;
         else
-            gia = a * d1 + (b - a) * d2 + (x - b) * d3;
+            t = a * d1 + (b - a) * d2 + (x - b) * d3;
     cout << t;
     return 0;
 }
