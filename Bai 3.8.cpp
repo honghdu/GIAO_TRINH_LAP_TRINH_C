@@ -4,17 +4,13 @@ using namespace std;
 
 int main()
 {
-    float m, gia;
-    cout << "Nhap khoi luong nuoc: "; cin >> m;
-    if(m <= 10)    gia = 7 * m;
+    long long a, b, d1, d2, d3, x, t;
+    cin >> a >> b >> d1 >> d2 >> d3 >> x;
+    if(x <= a)    t = x * d1;
     else
-        if(m <= 30)    gia = 7 * 10 + 10 * (m - 10);
+        if(x <= b)    t = a * d1 + (x - a) * d2;
         else
-            if(m <= 40)
-                gia = 7 * 10 + 10 * 20 + 12 * (m - 30);
-            else
-                gia = 7 * 10 + 10 * 20 + 12 * 10 + 15 *(m-40);
-    gia += 10;
-    cout << "So tien: " << gia;
+            gia = a * d1 + (b - a) * d2 + (x - b) * d3;
+    cout << t;
     return 0;
 }
