@@ -9,9 +9,9 @@ int main()
     {
         cin >> tmp;
         cin >> mamoi;
-        if(mamoi == tmp)  cout << "\nMa moi da duoc luu";
-        else  cout << "\nKhong trung khop";
+        if(mamoi == tmp)  cout << "\nSAVE";
+        else  cout << "\nNO";
     }
-    else  cout << "\nNhap sai ma";
+    else  cout << "\nWRONG";
     return 0;
 }
