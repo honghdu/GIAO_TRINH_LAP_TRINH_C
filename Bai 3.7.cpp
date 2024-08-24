@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     double m, gia;
-    cout << "Nhap khoi luong nuoc: "; cin >> m;
+    cin >> m;
     if(m <= 10)    gia = 7 * m;
     else
         if(m <= 30)    gia = 7 * 10 + 10 * (m - 10);
