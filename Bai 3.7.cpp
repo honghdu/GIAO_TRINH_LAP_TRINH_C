@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    float m, gia;
+    double m, gia;
     cout << "Nhap khoi luong nuoc: "; cin >> m;
     if(m <= 10)    gia = 7 * m;
     else
