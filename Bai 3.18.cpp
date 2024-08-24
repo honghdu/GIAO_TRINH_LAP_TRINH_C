@@ -4,8 +4,7 @@ using namespace std;
 int main()
 {
     char dau;
-    long long i, j;
-    cout << "Nhap phep toan va 2 so nguyen: ";
+    long long i, j;  
     cin >> dau >> i >> j;
     switch(dau)
     {
