@@ -1,11 +1,11 @@
-// Bài 4.18
-// Cách 1:
+// BÃ i 4.18
+// CÃ¡ch 1:
 #include<iostream>
 using namespace std;
 
 int main ()
 {
-    int n, m, a, b;
+    long long n, m, a, b;
     cin >> n >> m;
     a = n;
     b = m;
@@ -21,13 +21,13 @@ int main ()
 }
 
 /*
-// Cách 2:
+// CÃ¡ch 2:
 #include<iostream>
 using namespace std;
 
 int main ()
 {
-    int n, m, a, b;
+    long long n, m, a, b;
     cin >> n >> m;
     a = n;
     b = m;
@@ -43,14 +43,14 @@ int main ()
 /*
 
 /*
-//Cách 3:
+//CÃ¡ch 3:
 #include<iostream>
 #include<algorithm>
 using namespace std;
 
 int main ()
 {
-    int n, m;
+    long long n, m;
     cin >> n >> m;
     cout << __gcd(n, m) << ' ' << m*n / __gcd(n, m);
     return 0;
