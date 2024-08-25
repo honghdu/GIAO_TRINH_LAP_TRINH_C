@@ -1,11 +1,11 @@
-// Bài 4.8
+// BÃ i 4.8
 #include<iostream>
 using namespace std;
 
 int main ()
 {
-    int a, b, nho, lon, s = 0;
-    cin >> a >> b;
+    int a, b, nho, lon;
+    long long s = 0;
     if(a < b)
     {
         nho = a;
@@ -23,14 +23,14 @@ int main ()
 }
 
 /*
-// Cách khác
+// CÃ¡ch khÃ¡c
 #include<iostream>
 using namespace std;
 
 int main ()
 {
-    int a, b, nho, lon, s = 0;
-    cin >> a >> b;
+    int a, b, nho, lon;
+    long long s = 0;
     nho = min(a, b);
     lon = max(a, b);
     for(int i = nho + 1; i < lon; i++)
