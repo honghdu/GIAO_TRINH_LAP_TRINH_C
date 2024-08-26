@@ -4,17 +4,17 @@
 using namespace std;
 #define MAX 50
 
-typedef struct
+struct Ngay
 {
     int ngay, thang, nam;
-} Ngay;
+};
 
-typedef struct
+struct Nhanvien
 {
     string hoten, chucvu;
     double bacluong;
     Ngay ngaysinh;
-} Nhanvien;
+};
 
 int main()
 {
