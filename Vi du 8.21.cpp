@@ -4,17 +4,17 @@
 #include <iomanip>
 using namespace std;
 
-typedef struct
+struct Ngay
 {
     int ngay, thang, nam;
-} Ngay;
+};
 
-typedef struct
+struct Nhanvien
 {
     string hoten, chucvu;
     double bacluong;
     Ngay ngaysinh;
-} Nhanvien;
+};
 
 /* - Hàm nhập thông tin cho một nhân viên
    - Phải truyền tham biến cho biến nv vì sau khi nhập thông tin cho nhân viên, nội dung của biến nv thay đổi */
