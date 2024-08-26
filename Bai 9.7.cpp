@@ -4,12 +4,12 @@ using namespace std;
 
 #define MAX 1005
 
-typedef struct
+struct MATHANG
 {
     string mahang, tenhang;
     int soluong, soluongton, tgbaohanh;
     long long dongia;
-} MATHANG;
+};
 
 void nhap(MATHANG mh[MAX], int n)
 {
