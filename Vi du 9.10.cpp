@@ -2,16 +2,19 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-typedef struct
+
+struct Ngay
 {
     int ngay, thang, nam ;
-}Ngay;
-typedef struct
+};
+
+struct Nhanvien
 {
     string hoten, chucvu;
     float bacluong ;
     Ngay ngaysinh;
-}Nhanvien;
+};
+
 int main()
 {
     int n;
