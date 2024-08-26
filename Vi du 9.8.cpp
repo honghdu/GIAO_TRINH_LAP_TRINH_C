@@ -7,9 +7,8 @@ int main()
 {
     int output;
     // Khai báo và mở tệp để đọc dữ liệu
-    ifstream infile("songuyen.txt", ios::in);
- 
-if(!infile) // Nếu không mở được tệp
+    ifstream infile("songuyen.txt", ios::in); 
+    if(!infile) // Nếu không mở được tệp
     {
         cout << "\nKhong mo duoc tep.";
         exit(1);
