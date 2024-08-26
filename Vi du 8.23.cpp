@@ -6,17 +6,17 @@ using namespace std;
 
 #define MAX 50
 
-typedef struct
+struct Ngay
 {
     int ngay, thang, nam;
-} Ngay;
+};
 
-typedef struct
+struct Nhanvien
 {
     string hoten, chucvu;
     double bacluong;
     Ngay ngaysinh;
-} Nhanvien;
+};
 
 // Hàm nhập danh sách các nhân viên sử dụng con trỏ
 void nhapds(Nhanvien *nv, int n)
@@ -50,6 +50,7 @@ void xuatds(Nhanvien *nv, int n)
         cout << nv[i].ngaysinh.nam << '\n';
     }
 }
+
 int main()
 {
     Nhanvien *nv = new Nhanvien[MAX];
