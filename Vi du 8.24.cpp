@@ -1,12 +1,14 @@
 //Ví dụ 8.24:
 #include <iostream>
 using namespace std;
+
 // Khai báo kiểu cấu trúc số phức
 struct Sophuc
 {
     float thuc;
     float ao;
 };
+
 // Hàm cộng 2 số phức, trả lại một số phức
 Sophuc Cong(Sophuc x, Sophuc y)
 {
