@@ -1,17 +1,18 @@
 //Ví dụ 8.14:
 #include <iostream>
 using namespace std;
-typedef struct
+
+struct Ngay
 {
     int ngay, thang, nam;
-} Ngay;
+};
 
-typedef struct
+struct Nhanvien
 {
     string hoten, chucvu;
     float bacluong;
     Ngay ngaysinh;
-} Nhanvien;
+};
 
 int main()
 {
