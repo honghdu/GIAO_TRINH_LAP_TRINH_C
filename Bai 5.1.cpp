@@ -6,16 +6,16 @@ using namespace std;
 //Hàm tìm ước chung lớn nhất của 2 số a, b
 int UCLN(int a, int b)
 {
-    while (a != b)
+    while (b != 0)
     {
-        if (a > b)    a -= b;
-        else    b -= a;
+        if (a > b)    a %= b;
+        else    b %= a;
     }
     return a;
 }
 
 //Hàm tìm bội chung nhỏ nhất của 2 số a, b
-int BCNN(int a, int b)
+long long BCNN(int a, int b)
 {
     return (long long) a * b / UCLN(a, b);
 }
