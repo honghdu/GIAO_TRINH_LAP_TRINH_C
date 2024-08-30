@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const int MAX = 1005;
+const int MAX = 1000005;
 int a[MAX], n, d = 0;
 
 // Hàm kiểm tra số nguyên tố
