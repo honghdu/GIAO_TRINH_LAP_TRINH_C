@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const int MAX = 1005;
+const int MAX = 10005;
 long long a[MAX];
 int n;
 
