@@ -8,7 +8,7 @@
 #include<iostream>
 using namespace std;
 
-bool p[10005];
+bool p[10000005];
 
 void sang(int n)
 {
