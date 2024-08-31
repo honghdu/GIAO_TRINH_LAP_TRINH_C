@@ -4,7 +4,7 @@ using namespace std;
 
 long long giaithua(int n)
 {
-    if(n == 1)  return 1;
+    if(n == 1 || n == 0)  return 1;
     return n * giaithua(n-1);
 }
 
