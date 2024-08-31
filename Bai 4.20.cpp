@@ -4,9 +4,9 @@ using namespace std ;
 
 int main ()
 {
-    int n;
+    long long n;
     cin >> n;
-    for(int i = 2; i * i <= n; i++)
+    for(long long i = 2; i * i <= n; i++)
     {
         while(n % i == 0)
         {
@@ -18,3 +18,4 @@ int main ()
     if(n > 1)  cout << n;
     return 0;
 }
+
