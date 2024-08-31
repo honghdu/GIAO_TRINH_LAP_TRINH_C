@@ -4,14 +4,14 @@ using namespace std ;
 
 int main ()
 {
-    int i, n;
+    long long n;
     cin >> n;
     if (n < 2)
     {
         cout << "NO";
         return 0;
     }
-    for (int i = 2; i * i <= n; i++)
+    for (long long i = 2; i * i <= n; i++)
         if (n % i == 0)
         {
             cout << "NO";
@@ -20,3 +20,4 @@ int main ()
     cout << "YES";
     return 0;
 }
+
