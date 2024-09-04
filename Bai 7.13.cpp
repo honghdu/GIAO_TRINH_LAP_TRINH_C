@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, *p[3] = {&a, &b, &c};
+    double a, b, c, *p[3] = {&a, &b, &c};
     cin >> *p[0] >> *p[1];
     do
     {
