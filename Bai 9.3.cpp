@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define MAX 100
+#define MAX 300
 
 // Chèn số x vào vị trí k trong dãy
 void chenxk(int *a, int &n, int x, int k)
