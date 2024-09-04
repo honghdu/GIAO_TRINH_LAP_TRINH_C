@@ -12,7 +12,7 @@ int main()
     if(fopen("MATRAN.INP", "r"))
     {
         freopen("MATRAN.INP", "r", stdin);
-        freopen("MATRANTONG.OUT", "w", stdout);
+        freopen("MATRAN.OUT", "w", stdout);
     }
     cin >> m >> n;
     for(int i = 1; i <= m; i++)
