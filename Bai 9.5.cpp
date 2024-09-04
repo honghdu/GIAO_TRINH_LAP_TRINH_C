@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-    int a[MAX][MAX], b[MAX][MAX], c[MAX][MAX], m, n, p, k;
+    int a[MAX][MAX], b[MAX][MAX], m, n, p;
+    long long c[MAX][MAX];
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
     if(fopen("BAI5.INP", "r"))
@@ -15,27 +16,26 @@ int main()
         freopen("BAI5.OUT", "w", stdout);
     }
 
-    cin >> m >> n;
+    cin >> m >> n >> p;
     for(int i = 1; i <= m; i++)
         for(int j = 1; j <= n; j++)
             cin >> a[i][j];
 
-    cin >> p >> k;
-    for(int i = 1; i <= p; i++)
-        for(int j = 1; j <= k; j++)
+    for(int i = 1; i <= n; i++)
+        for(int j = 1; j <= p; j++)
             cin >> b[i][j];
-    if(n == p)
+
     for(int i = 1; i <= m; i++)
-        for(int j = 1; j <= k; j++)
+        for(int j = 1; j <= p; j++)
         {
             c[i][j] = 0;
-            for(int h = 1; h <= n; h++)
-                c[i][j] += a[i][h] * b[h][j];
+            for(int k = 1; k <= n; k++)
+                c[i][j] += a[i][k] * b[k][j];
         }
 
     for(int i = 1; i <= m; i++)
     {
-        for(int j = 1; j <= k; j++)
+        for(int j = 1; j <= p; j++)
             cout << c[i][j] << " ";
         cout << '\n';
     }
