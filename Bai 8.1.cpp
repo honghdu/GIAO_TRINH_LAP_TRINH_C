@@ -9,18 +9,16 @@ struct PHANSO
 	int tu, mau;
 };
 
-// Hàm tìm ước chung lớn nhất của hai số nguyên ma và n
-int UCLN(int m , int n)
+//Hàm tìm ước chung lớn nhất của 2 số a, b
+int UCLN(int a, int b)
 {
-
-	if (m == 0 && n == 0)
-	    return 1;
-    while (m != n)
+    while(b != 0)
     {
-		if (m > n)  m -= n;
-		else    n -= m;
-	}
-	return m;
+      int r = a % b;
+      a = b;
+      b = r;
+    }
+    return a;
 }
 
 // Hàm rút gọn phân số
