@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define MAX 100
+#define MAX 1000
 
 // Hàm sắp xếp mảng tăng dần
 void sxtang(int a[MAX], int n)
@@ -32,6 +32,7 @@ int main()
     for(int i = 0; i < n; i++)
         cin >> a[i];
     sxtang(a, n);
+    // sort(a, a + n);
     for(int i = 0; i < n; i++)
         cout << a[i] << ' ';
     return 0;
