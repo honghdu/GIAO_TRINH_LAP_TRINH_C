@@ -18,7 +18,7 @@ Số chiếc tất (d[i])	0	3	3	1	0	0	1	0	0	0	0	0	0
 #include <iostream>
 using namespace std;
 
-int d[1001], x, s = 0;
+int d[10000001], x, s = 0;
 
 int main ()
 {
