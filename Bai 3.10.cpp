@@ -1,4 +1,4 @@
-//Bài 3.10
+//BÃ i 3.10
 #include<iostream>
 
 using namespace std ;
@@ -12,7 +12,7 @@ int main ()
     if(tien > 600)  tien *= 0.8;
     else
         if(tien > 200 || (nho + lon) > 3000)
-            tien *= 0.9;
+            tien *= 0.92;
     cout << tien << " USD";
     return 0;
 }
