@@ -1,10 +1,10 @@
-// Bài 4.13
+// BÃ i 4.13
 #include<iostream>
 using namespace std;
 
 int main ()
 {
-    int n;
+    long long n;
     cin >> n;
     int d = 0, s = 0;
     while(n > 0)
